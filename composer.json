@@ -1,0 +1,21 @@
+{
+    "name": "iwankeji/luosimao-api",
+    "description": "luosimao api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cgeek",
+            "email": "cgeek.share@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+	"version": "1.0.0",
+    "require": {
+		"php": ">=5.3.3"
+	},
+	"autoload": {
+        "psr-4": {
+            "IWankeji\\Luosimao\\": "src/"
+        }
+    }
+}
